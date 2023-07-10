@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  place-items: center;
+  height: var(--header-height);
+  padding: 0 20px;
+  background-color: #ffffff;
+  border-bottom: 2px solid rgba(225, 225, 225, 0.12);
+}
+
+.sidebar_icon {
+  font-size: 24px;
+  color: var(--icon-color);
+}

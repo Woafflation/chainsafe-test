@@ -1,0 +1,9 @@
+.settings {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.description {
+  font-size: 12px;
+}

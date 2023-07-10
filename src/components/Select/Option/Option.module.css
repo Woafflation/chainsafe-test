@@ -1,0 +1,29 @@
+.option {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30px;
+  padding: 5px;
+  border: 1px;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
+}
+
+.option[aria-selected='true'] {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.option:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.selectWrapper[data-mode='cells'] .select {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.selectWrapper[data-mode='cells'] .option {
+  justify-content: center;
+}
